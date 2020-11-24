@@ -3,8 +3,14 @@ import './Cart.css';
 import CartItem from '../cart-item/CartItem';
 
 export default function Cart({ initialItems }) {
+   
+   const initialState = JSON.parse(window.localStorage.getItem("items"));
+   const [items, setItems] = useState(initialState || initialItems);
 
-   const [items, setItems] = useState(initialItems);
+   useEffect(() => {
+      window.localStorage.setItem('items', JSON.stringify(items));
+   }, [items])
+
 
    const grandTotal = items
       .reduce((total, item) => total + item.qty * item.price, 0)
