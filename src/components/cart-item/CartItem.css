@@ -23,6 +23,7 @@
 .CartItem__buttons button {
    width: 30px;
    height: 30px;
+   font-weight: 600;
    background-color: #e1e8ee;
    border-radius: 6px;
    margin: 0 3px;

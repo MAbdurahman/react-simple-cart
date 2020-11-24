@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
 
 /* =========================================
               Website Resets
@@ -38,8 +38,8 @@ body {
 
 body {
   margin: 0;
+  font-family: 'Source Code Pro', monospace;
   color: #20212d;
-  font-family: 'Montserrat', sans-serif;
   background-color: rgb(238, 236, 236);
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -53,13 +53,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
+p, span {
+  font-family: 'Source Code Pro', monospace;
   font-size: .8125rem;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
