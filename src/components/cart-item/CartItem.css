@@ -1,10 +1,9 @@
 .CartItem {
-   /* margin-top: 3em; */
    margin-top: 1.25em;
-   
    display: flex;
    justify-content: space-between;
 }
+
 .CartItem:last-of-type {
    margin-bottom: 1.25em;
 }
@@ -21,13 +20,17 @@
 }
 
 .CartItem__buttons button {
-   width: 30px;
-   height: 30px;
+   width: 1.8em;
+   height: 1.8em;
    font-weight: 600;
    background-color: #e1e8ee;
-   border-radius: 6px;
+   border-radius: 5px;
    margin: 0 3px;
    border: none;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
 }
 
 .CartItem__buttons button:disabled {

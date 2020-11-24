@@ -1,5 +1,5 @@
 .Cart {
-   width: 960px;
+   max-width: 960px;
    margin: 80px auto;
    background: white;
    border-radius: 8px;

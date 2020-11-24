@@ -65,3 +65,16 @@ p, span {
   letter-spacing: 1px;
 }
 
+/*mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/*mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+  html {
+    font-size: 40%;
+  }
+}
