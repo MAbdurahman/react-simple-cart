@@ -11,9 +11,11 @@
 .CartItem div {
    width: 25%;
 }
+
 .CartItem__name {
    text-align: left;
 }
+
 .CartItem__price,
 .CartItem__total {
    text-align: right;
@@ -31,6 +33,21 @@
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
+   box-shadow: 0 9px #999;
+   transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -webkit-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -moz-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -ms-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -o-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.CartItem__buttons button:active {
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+   -webkit-transform: translateY(4px);
+   -moz-transform: translateY(4px);
+   -ms-transform: translateY(4px);
+   -o-transform: translateY(4px);
 }
 
 .CartItem__buttons button:disabled {
