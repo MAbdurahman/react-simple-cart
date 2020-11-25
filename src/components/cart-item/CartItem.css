@@ -24,21 +24,27 @@
 .CartItem__buttons button {
    width: 1.8em;
    height: 1.8em;
+   margin: 0 3px;
    font-weight: 600;
    background-color: #e1e8ee;
-   border-radius: 5px;
-   margin: 0 3px;
    border: none;
+   border-radius: 5px;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
-   box-shadow: 0 9px #999;
    transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
    -webkit-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
    -moz-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
    -ms-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
    -o-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   box-shadow: 0 9px #999;
+}
+
+.CartItem__buttons button:hover {
+   background-color: #47494b;
+   color: #e1e8ee;
+   cursor: pointer;
 }
 
 .CartItem__buttons button:active {
